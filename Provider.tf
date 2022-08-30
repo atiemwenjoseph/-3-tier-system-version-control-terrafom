@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  aws_region = "eu-west-2"
+  region = "eu-west-2"
   endpoints {
 sts = "https://sts.eu-west-1.amazonaws.com"
 }
