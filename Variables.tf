@@ -10,3 +10,7 @@ variable "access_key"{
   type = string
   default = "AKIAR6GVIZU3FVO3GC62"
 }
+
+variable "region" {
+  default = "eu-west-2"
+}
